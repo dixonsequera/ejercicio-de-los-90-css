@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-image: url(img/emoji.png);
+    background-color: black;
+
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    background-image: url(img/window.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+h1,
+p {
+    color: blueviolet
+}
+
+h1 {
+    font-size: 4rem;
+    padding-top: 10rem;
+}
+
+
+.header {
+
+    background-position: center bottom;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.bigger-text1 {
+    font-size: 1.5rem;
+    float: left;
+
+}
+
+.bigger-text2 {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.button:hover {
+
+    color: red;
+}
